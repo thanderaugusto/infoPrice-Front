@@ -27,8 +27,10 @@ function submitdata(event) {
                 resultado.append('<article><strong id="titulo">' + element.titulo +'</strong>'+
                     '<p id="descricao">' + element.descricao +'</p>'+
                     '<a onclick="getItem(event)" id="'+element._id+'" class="btIdProduto">VER DETALHES</a></article>');
-
             });
+
+            
+            
             $('#search').val("");
 
         } else {
@@ -48,13 +50,14 @@ function submitdata(event) {
 
 function getItem(event) {
 
-    let idProduto = $('.btIdProduto').attr('id');
     
+    let idProduto = $('.btIdProduto').attr('id');
+  
 
     $.ajax({
         "async": true,
         "crossDomain": true,
-        "url": `https://infoprice.herokuapp.com/produtos/adm/${idProduto}`,
+        "url": `https://infoprice.herokuapp.com/produtos/adm/${event.target.id}`,
         "method": "GET"
     }).done(function (response) {
             $('#erro').html("");
@@ -65,11 +68,11 @@ function getItem(event) {
             while (resu.firstChild) {
                 resu.removeChild(resu.firstChild);
             }
-            if(idProduto.indexOf()){
-            resultado.append('<article><strong>' + response.titulo +
-                '</strong><p id="descricaoCompleta">' + response.descricao +
-                '</p><h3 id="preco">R$ ' + response.preco + ',00</h3></article>');
-            }    
+
+                resultado.append('<article><strong>' + response.titulo +
+                    '</strong><p id="descricaoCompleta">' + response.descricao +
+                    '</p><h3 id="preco">R$ ' + response.preco + ',00</h3></article>');
+            
 
 
     }).catch (err => {

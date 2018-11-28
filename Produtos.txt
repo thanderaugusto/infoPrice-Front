@@ -1,20 +1,37 @@
-{
-    "titulo": "Pen Drive Kingston DataTraveler USB 3.0 16GB",
-    "descricao": "A unidade Flash USB DataTraveler 100 G3 (DT100G3) da Kingston é compatível com as especificações para USB 3.0 de última geração para beneficiar-se da tecnologia presente nos novos notebooks, desktops e dispositivos digitais. Com o DT100G3, o armazenamento e transferência de documentos, apresentações, músicas, vídeos e outros arquivos são mais rápidas e fáceis do que nunca.",
-    "slug": "pen-drive-kingston-datatraveler-3",
-    "preco": 30
+"titulo": "Pen Drive Kingston DataTraveler USB 3.0 16GB",
+ 
+
+"descricao": "A unidade Flash USB DataTraveler 100 G3 (DT100G3) da Kingston
+é compatível com as especificações para USB 3.0 de última geração para beneficiar-se
+da tecnologia presente nos novos notebooks, desktops e dispositivos digitais.
+Com o DT100G3, o armazenamento e transferência de documentos, apresentações, músicas,
+vídeos e outros arquivos são mais rápidas e fáceis do que nunca.",
+
+
+"slug": "pen-drive-kingston-datatraveler-3",
+
+"preco": 30
+
+"titulo": "Headset Gamer HyperX Cloud Silver",
+
+"descricao": "Controle de volume e microfone mudo no cabo, 
+estrutura durável em alumínio; Fones de ouvido de espuma memor
+foam oferecem conforto máximo para longas sessões de jogos; Drivers
+de 53 mm proporcionam áudio exuberante para sua imersão total no jogo;
+Microfone removível com cancelamento de ruído; Certificado pela TeamSpeak
+e Discord para você ouvir alto e claro; Compatível com PS4, Xbox One, Wii
+U, PC, Mac e dispositivos móveis.",
+
+
+"slug": "headset-gamer-hyper-x-silver",
+
+
+"preco": 400
 }
 
-{
-    "titulo": "Headset Gamer HyperX Cloud Silver",
-    "descricao": "Controle de volume e microfone mudo no cabo, estrutura durável em alumínio; Fones de ouvido de espuma memory foam oferecem conforto máximo para longas sessões de jogos; Drivers de 53 mm proporcionam áudio exuberante para sua imersão total no jogo; Microfone removível com cancelamento de ruído; Certificado pela TeamSpeak e Discord para você ouvir alto e claro; Compatível com PS4, Xbox One, Wii U, PC, Mac e dispositivos móveis.",
-    "slug": "headset-gamer-hyper-x-silver",
-    "preco": 400
-}
+"titulo": "Memória Kingston HyperX FURY 8GB 2400Mhz DDR4 CL15 Black",
 
-{
-    "titulo": "Memória Kingston HyperX FURY 8GB 2400Mhz DDR4 CL15 Black",
-    "descricao": "Solução econômica a combinação perfeita de preço e desempenho DDR4, com exclusivo dissipador de calor assimétrico e com assinatura FURY possui um design de perfil baixo, dissipador de calor e PCB na cor preta.",
+"descricao": "Solução econômica a combinação perfeita de preço e desempenho DDR4, com exclusivo dissipador de calor assimétrico e com assinatura FURY possui um design de perfil baixo, dissipador de calor e PCB na cor preta.",
     "slug": "memoria-kingston-hyper-x-fury",
     "preco": 500
 }
