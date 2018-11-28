@@ -15,7 +15,7 @@ function submitcadastrar(event) {
         "data": "token="+token+"&titulo="+titulo+"&descricao="+descricao+"&slug="+slug+"&preco="+preco
     }).done(function (response) {
 
-        if(!token.empty()){
+        if(window.sessionStorage.getItem != "token"){
             $('#error').hide();
             $('#success').text(response.message);
             
