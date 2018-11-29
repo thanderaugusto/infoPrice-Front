@@ -73,7 +73,7 @@ header#main-header form {
 .linkIndex {
     font-size: 19px;
 }
-.linkIndex, #linkSLogin {
+.linkIndex, #linkSLogin, .linkAdm {
     text-decoration: none;
     color: #fff;
     margin-top: 20px;
@@ -85,17 +85,37 @@ header#main-header form {
     font-weight: 500;
 }
 
-.linkIndex:hover {
+.linkAdm {
+    font-size: 14px;
+}
+
+.linkIndex:hover, .linkAdm:hover {
     color:#DE070E;
 }
 
-#linkSLogin:hover {
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+#exibirTudo {
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#linkSLogin:hover, #exibirTudo:hover {
     color: rgb(115, 120, 251);
 }
 
 .seta {
     margin-left: 10px;
     font-size: 30px;
+}
+
+.adm {
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .error {

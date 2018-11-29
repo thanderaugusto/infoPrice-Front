@@ -16,13 +16,16 @@
 
 <body>
     <header id="main-header">
-        <a href="busca.html"><img src="img/logo.svg" alt="InfoPrice"></a>
+        <a href="index.html"><img src="img/logo.svg" alt="InfoPrice"></a>
 
-        <form onsubmit="submitdata(event)" id="myform">
-            <input id="search" name="search" type="text" autocomplete="off" placeholder="Digite sua busca!" required>
-            <input class="btn btnBusca" value='Buscar' type="submit">
-
-        </form>
+        <div>
+            <form onsubmit="submitdata(event)" id="myform">
+                <input id="search" name="search" type="text" autocomplete="off" placeholder="Digite sua busca!" required>
+                <input class="btn btnBusca" value='BUSCAR' type="submit">
+                <a onclick="exibirTudo(event)" id="exibirTudo">EXIBIR TUDO</a>
+            </form>
+            
+        </div>
     </header>
     <h3 id="erro"></h3>
     <div id="lista-produtos">
