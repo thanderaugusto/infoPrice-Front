@@ -83,6 +83,7 @@ header#main-header form {
     float: left;
     padding: 0 120px;
     font-weight: 500;
+    transition: all .2s;
 }
 
 .linkAdm {
