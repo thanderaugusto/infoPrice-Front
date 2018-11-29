@@ -66,7 +66,7 @@ function getItem(event) {
                 resu.removeChild(resu.firstChild);
             }
 
-                resultado.append('<article><strong>' + response.titulo +
+                resultado.append('<article><strong id="tituloExibicao">' + response.titulo +
                     '</strong><p id="descricaoCompleta">' + response.descricao +
                     '</p><h3 id="preco">R$ ' + response.preco + ',00</h3></article>');
 
