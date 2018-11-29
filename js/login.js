@@ -9,7 +9,7 @@ function submitlogin(event) {
     $.ajax({
         "async": true,
         "crossDomain": true,
-        "url": "https://infoprice.herokuapp.com/clientes/autenticacao",
+        "url": "https://infoprice.herokuapp.com/usuarios/autenticacao",
         "method": "POST",
         "data": "email="+email+"&password="+senha
     }).done(function (response) {
